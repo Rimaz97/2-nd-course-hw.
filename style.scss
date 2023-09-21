@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 1024px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), lightgray 50%/cover no-repeat;
+    background-image: url(img/background_top.jpg);
+    
+    &_content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-left: 120px;
+    }
+
+    &_header {
+        color: #FFF;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        width: 788.778px;
+        margin-bottom: 32px;
+    }
+    
+    &_text {
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 32px; /* 177.778% */
+        width: 481px;
+        margin-bottom: 44px;
+    }
+
+    &_button {
+        width: 234.063px;
+        height: 48.603px;
+        border-radius: 30px;
+        background: #9C0332;
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.product {
+    height: 556px;
+    background: #000915;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    padding-left: 120px;
+
+    &_content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+    }
+
+}
+
+.footer {
+    height: 800px;
+    background: #000915;
+    display: flex;
+    gap: 135px;
+    padding-left: 120px;
+    align-content: center;
+    flex-wrap: wrap;
+
+    &_content {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 584px;
+        gap: 32px;
+    }
+
+    &_header {
+        color: #FFF;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    &_text {
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 32px; /* 177.778% */
+    }
+
+    &_button {
+        width: 234.063px;
+        height: 48.603px;
+        border-radius: 30px;
+        background: #9C0332;
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+@import "adaptation";
